@@ -1,0 +1,22 @@
+[
+  {
+    "id": "101-main",
+    "address": "303 Main Street",
+    "price": 645000,
+    "beds": 3,
+    "baths": 2,
+    "builder": "ABC Homes",
+    "image": "images/house1.jpg",
+    "page": "#"
+  },
+  {
+    "id": "202-elm",
+    "address": "202 Elm Street",
+    "price": 720000,
+    "beds": 4,
+    "baths": 3,
+    "builder": "XYZ Builders",
+    "image": "images/house2.jpg",
+    "page": "#"
+  }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Homes in Goshen | Hicks Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hicks Realty</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../builders.html">Builders</a></li>
+        <li><a href="../cities/goshen.html" class="active">Cities</a></li>
+        <li><a href="../things-to-do.html">Things To Do</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- City Intro -->
+  <section class="page-intro">
+    <h1>New Construction Homes in Goshen, CA</h1>
+    <p>Goshen is a small but strategically located community on the edge of Visalia — ideal for those seeking affordability and proximity to major roadways.</p>
+  </section>
+
+  <!-- Map -->
+  <section class="city-map-section">
+    <h2 style="text-align:center;">Community Map</h2>
+    <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;"></div>
+  </section>
+
+  <!-- Community List -->
+  <section class="card-grid builders-grid">
+    <div class="builder-card">
+      <h2>San Joaquin Valley Homes</h2>
+      <ul>
+        <li>Harvest Grove West</li>
+      </ul>
+    </div>
+
+    <div class="builder-card">
+      <h2>D.R. Horton</h2>
+      <ul>
+        <li>Village Oaks</li>
+      </ul>
+    </div>
+
+    <div class="builder-card">
+      <h2>Other Local Builders</h2>
+      <ul>
+        <li>New small-lot communities near Betty Dr</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Stats/Info -->
+  <section class="cta-section">
+    <h2>Why Goshen?</h2>
+    <p>Goshen offers new homes at accessible price points, just minutes from major retail in Visalia and access to Highway 99. It's ideal for commuters and buyers looking for newer homes without Visalia pricing.</p>
+    <p><strong>Recent Market Stats:</strong> Median new home price: $395,000 · Avg. time on market: 20 days</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hicks Realty</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([36.3305, -119.4213], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Sample Goshen community markers
+    L.marker([36.332, -119.415]).addTo(map)
+      .bindPopup('<strong>Harvest Grove West</strong><br>San Joaquin Valley Homes');
+
+    L.marker([36.328, -119.428]).addTo(map)
+      .bindPopup('<strong>Village Oaks</strong><br>D.R. Horton');
+
+    L.marker([36.325, -119.420]).addTo(map)
+      .bindPopup('<strong>Betty Dr. Developments</strong><br>Local Builders');
+  </script>
+
+</body>
+</html>

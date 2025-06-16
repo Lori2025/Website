@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Homes in Lemoore | Hicks Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hicks Realty</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../builders.html">Builders</a></li>
+        <li><a href="../cities/lemoore.html" class="active">Cities</a></li>
+        <li><a href="../things-to-do.html">Things To Do</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- City Intro -->
+  <section class="page-intro">
+    <h1>New Construction Homes in Lemoore, CA</h1>
+    <p>Lemoore is a military and family-friendly city located just west of Hanford, and home to NAS Lemoore. It's growing fast with new homes that combine value and convenience.</p>
+  </section>
+
+  <!-- Map -->
+  <section class="city-map-section">
+    <h2 style="text-align:center;">Community Map</h2>
+    <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;"></div>
+  </section>
+
+  <!-- Community List -->
+  <section class="card-grid builders-grid">
+    <div class="builder-card">
+      <h2>San Joaquin Valley Homes</h2>
+      <ul>
+        <li>Harvest Grove</li>
+        <li>Crescent Heights</li>
+      </ul>
+    </div>
+
+    <div class="builder-card">
+      <h2>D.R. Horton</h2>
+      <ul>
+        <li>Legacy Estates</li>
+      </ul>
+    </div>
+
+    <div class="builder-card">
+      <h2>Local Developers</h2>
+      <ul>
+        <li>New neighborhoods on W Bush and Lemoore Ave</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Stats/Info -->
+  <section class="cta-section">
+    <h2>Living in Lemoore</h2>
+    <p>With great access to NAS Lemoore, strong schools, and a tight-knit community feel, Lemoore offers affordable new homes in a stable market. It’s a favorite for military families and first-time buyers alike.</p>
+    <p><strong>Recent Market Stats:</strong> Median new home price: $435,000 · Avg. time on market: 18 days</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hicks Realty</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([36.3008, -119.7820], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Sample Lemoore community markers
+    L.marker([36.305, -119.775]).addTo(map)
+      .bindPopup('<strong>Harvest Grove</strong><br>San Joaquin Valley Homes');
+
+    L.marker([36.297, -119.788]).addTo(map)
+      .bindPopup('<strong>Legacy Estates</strong><br>D.R. Horton');
+
+    L.marker([36.312, -119.790]).addTo(map)
+      .bindPopup('<strong>Crescent Heights</strong><br>San Joaquin Valley Homes');
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Homes in Exeter | Hicks Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hicks Realty</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../builders.html">Builders</a></li>
+        <li><a href="../cities/exeter.html" class="active">Cities</a></li>
+        <li><a href="../things-to-do.html">Things To Do</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- City Intro -->
+  <section class="page-intro">
+    <h1>New Construction Homes in Exeter, CA</h1>
+    <p>Exeter is known for its charming small-town vibe, historic murals, and proximity to the Sierra Nevada foothills. It's quiet, walkable, and ready for buyers seeking community and comfort.</p>
+  </section>
+
+  <!-- Map -->
+  <section class="city-map-section">
+    <h2 style="text-align:center;">Community Map</h2>
+    <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;"></div>
+  </section>
+
+  <!-- Community List -->
+  <section class="card-grid builders-grid">
+    <div class="builder-card">
+      <h2>San Joaquin Valley Homes</h2>
+      <ul>
+        <li>Copper Creek</li>
+      </ul>
+    </div>
+
+    <div class="builder-card">
+      <h2>Local Builders</h2>
+      <ul>
+        <li>New infill homes near Belmont Rd</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Stats/Info -->
+  <section class="cta-section">
+    <h2>Why Exeter?</h2>
+    <p>Exeter combines a small-town sense of pride with access to nearby Visalia amenities and foothill trails. It’s a favorite for those wanting peace and space with modern homes just minutes from town.</p>
+    <p><strong>Recent Market Stats:</strong> Median new home price: $410,000 · Avg. time on market: 25 days</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hicks Realty</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([36.2967, -119.1421], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Sample Exeter community markers
+    L.marker([36.295, -119.145]).addTo(map)
+      .bindPopup('<strong>Copper Creek</strong><br>San Joaquin Valley Homes');
+
+    L.marker([36.292, -119.135]).addTo(map)
+      .bindPopup('<strong>Belmont Rd Area</strong><br>Local Builders');
+  </script>
+
+</body>
+</html>

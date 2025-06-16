@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Business</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Construction, Your Way | Hicks Realty</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Welcome to My Business</h1>
-  <div id="map"></div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="map.js"></script>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hicks Realty</div>
+      <ul class="nav-links">
+        <li><a href="builders.html">Builders</a></li>
+        <li><a href="cities/index.html">Cities</a></li>
+        <li><a href="things-to-do.html">Things To Do</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>What Most People Don't Know About New Construction</h1>
+      <p>You're about to make a big investment — here's how to protect it.</p>
+      <a href="#cta" class="cta-btn">Why Work With Me</a>
+    </div>
+  </section>
+
+  <!-- Video/Blog/YouTube Section -->
+  <section class="media-section">
+    <h2>Videos & Insights</h2>
+    <div class="media-grid">
+      <div class="video-preview">
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <p>▶️ What your builder rep won't tell you</p>
+      </div>
+      <div class="blog-preview">
+        <h3>Latest Blog: The Real Cost of “Free” Upgrades</h3>
+        <p>Builder incentives sound amazing, but there’s fine print. Here’s how to spot real value from fluff.</p>
+        <a href="#">Read More →</a>
+      </div>
+    </div>
+    <p class="youtube-link"><a href="https://youtube.com/yourchannel" target="_blank">→ Visit My YouTube Channel</a></p>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta-section" id="cta">
+    <h2>I'm Your Advocate in the Builder's Office</h2>
+    <p>When you walk in without a realtor, the builder rep works for the builder — not you. My job is to protect your interest, help you understand your options, and get you the best deal without costing you a dime.</p>
+    <a href="contact.html" class="cta-btn">Let's Talk</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Hicks Realty | <a href="contact.html">Contact Me</a></p>
+  </footer>
+
 </body>
 </html>
