@@ -1,0 +1,150 @@
+[
+  {
+    "builder": "Bonadelle Homes Inc.",
+    "cities": {
+      "Tulare": [
+        "Mission Oaks"
+      ]
+    }
+  },
+  {
+    "builder": "Century Communities",
+    "cities": {
+      "Hanford": [
+        "Live Oak"
+      ],
+      "Tulare": [
+        "Liberty Hill"
+      ],
+      "Visalia": [
+        "Larkspur"
+      ]
+    }
+  },
+  {
+    "builder": "D.R. Horton",
+    "cities": {
+      "Corcoran": [
+        "Fox Run"
+      ],
+      "Hanford": [
+        "Billingsley Ranch"
+      ],
+      "Tulare": [
+        "Santa Fe Trail",
+        "Wild Oak"
+      ],
+      "Visalia": [
+        "Victory Oaks",
+        "Shepards Ranch"
+      ],
+      "Woodlake": [
+        "Greenwood"
+      ]
+    }
+  },
+  {
+    "builder": "Lennar",
+    "cities": {
+      "Hanford": [
+        "Ironside \u2013 Solana Series",
+        "Ironside \u2013 Treasures"
+      ],
+      "Lemoore": [
+        "Avertine \u2013 Choral Series"
+      ]
+    }
+  },
+  {
+    "builder": "San Joaquin Valley Homes",
+    "cities": {
+      "Hanford": [
+        "Bonterra",
+        "Hidden Oaks II"
+      ],
+      "Porterville": [
+        "Brookside",
+        "Laurelwood"
+      ],
+      "Tulare": [
+        "Sorrento"
+      ],
+      "Visalia": [
+        "Andalusia",
+        "Maple Wood",
+        "Sycamore Ranch",
+        "Granite Hill",
+        "Stonebrook"
+      ]
+    }
+  },
+  {
+    "builder": "Smee Homes Inc.",
+    "cities": {
+      "Exeter": [
+        "Yokohl Landing"
+      ],
+      "Porterville": [
+        "The Villas at Sierra Meadows",
+        "Summit Estates"
+      ],
+      "Visalia": [
+        "Cross Creek Bend"
+      ]
+    }
+  },
+  {
+    "builder": "Summit Homebuilders Inc.",
+    "cities": {
+      "Tulare": [
+        "The Villas at Sierra Ranch"
+      ],
+      "Visalia": [
+        "Southern Highlands"
+      ]
+    }
+  },
+  {
+    "builder": "T.C. James Homes",
+    "cities": {
+      "Visalia": [
+        "Tierra Linda",
+        "Cross Creek Bend",
+        "Alta Vista at O\u2019Hara Ranch"
+      ]
+    }
+  },
+  {
+    "builder": "Willow Springs",
+    "cities": {
+      "Visalia": [
+        "Willow Springs"
+      ]
+    }
+  },
+  {
+    "builder": "Woodside Homes",
+    "cities": {
+      "Hanford": [
+        "Ella Gardens \u2013 The West Garden",
+        "Ella Gardens \u2013 The East Garden"
+      ],
+      "Tulare": [
+        "The Orchards at Copper Heights",
+        "The Acres at Copper Heights"
+      ],
+      "Visalia": [
+        "Huckleberry Park",
+        "Wildflower"
+      ]
+    }
+  },
+  {
+    "builder": "Your Valley Builder",
+    "cities": {
+      "Porterville": [
+        "Royal Oaks"
+      ]
+    }
+  }
+]

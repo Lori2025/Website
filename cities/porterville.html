@@ -1,94 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>New Homes in Porterville | Hicks Realty</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-</head>
-<body>
-
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   New Homes in Porterville | Hicks Realty
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="../css/style.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+ </head>
+ <body>
   <!-- Navbar -->
   <header>
-    <nav class="navbar">
-      <div class="logo">Hicks Realty</div>
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../builders.html">Builders</a></li>
-        <li><a href="../cities/porterville.html" class="active">Cities</a></li>
-        <li><a href="../things-to-do.html">Things To Do</a></li>
-        <li><a href="../contact.html">Contact</a></li>
-      </ul>
-    </nav>
+   <nav class="navbar">
+    <div class="logo">
+     Hicks Realty
+    </div>
+    <ul class="nav-links">
+     <li>
+      <a href="../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="../builders.html">
+       Builders
+      </a>
+     </li>
+     <li>
+      <a class="active" href="../cities/index.html">
+       Cities
+      </a>
+     </li>
+     <li>
+      <a href="../things-to-do.html">
+       Things To Do
+      </a>
+     </li>
+     <li>
+      <a href="../contact.html">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
   </header>
-
   <!-- City Intro -->
   <section class="page-intro">
-    <h1>New Construction Homes in Porterville, CA</h1>
-    <p>Porterville is a gateway to the Sierra foothills — offering affordability, new development, and small-town charm.</p>
   </section>
-
   <!-- Map -->
   <section class="city-map-section">
-    <h2 style="text-align:center;">Community Map</h2>
-    <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;"></div>
+   <h2 style="text-align:center;">
+    Community Map
+   </h2>
+   <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;">
+   </div>
   </section>
-
   <!-- Community List -->
-  <section class="card-grid builders-grid">
-    <div class="builder-card">
-      <h2>San Joaquin Valley Homes</h2>
-      <ul>
-        <li>Vista Del Sol</li>
-        <li>Granite Hills</li>
-      </ul>
-    </div>
-
-    <div class="builder-card">
-      <h2>D.R. Horton</h2>
-      <ul>
-        <li>Hidden Pointe</li>
-      </ul>
-    </div>
-
-    <div class="builder-card">
-      <h2>Local Builders</h2>
-      <ul>
-        <li>Smaller developments in East Porterville</li>
-      </ul>
-    </div>
+  <section class="card-grid builders-grid" id="city-builder-list">
   </section>
-
   <!-- Stats/Info -->
   <section class="cta-section">
-    <h2>Why Porterville?</h2>
-    <p>With more open space and lower average prices, Porterville is a smart choice for buyers looking to stretch their budget or retire close to nature.</p>
-    <p><strong>Recent Market Stats:</strong> Median new home price: $420,000 · Avg. time on market: 24 days</p>
+   <h2>
+    Why Porterville?
+   </h2>
+   <p>
+    With more open space and lower average prices, Porterville is a smart choice for buyers looking to stretch their budget or retire close to nature.
+   </p>
+   <p>
+    <strong>
+     Recent Market Stats:
+    </strong>
+    Median new home price: $420,000 · Avg. time on market: 24 days
+   </p>
   </section>
-
   <footer>
-    <p>&copy; 2025 Hicks Realty</p>
+   <p>
+    © 2025 Hicks Realty
+   </p>
   </footer>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    const map = L.map('map').setView([36.0652, -119.0168], 13);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-
-    // Sample Porterville community markers
-    L.marker([36.070, -119.020]).addTo(map)
-      .bindPopup('<strong>Vista Del Sol</strong><br>San Joaquin Valley Homes');
-
-    L.marker([36.060, -119.010]).addTo(map)
-      .bindPopup('<strong>Hidden Pointe</strong><br>D.R. Horton');
-
-    L.marker([36.080, -119.030]).addTo(map)
-      .bindPopup('<strong>Granite Hills</strong><br>San Joaquin Valley Homes');
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
   </script>
-
-</body>
+  <script src="../js/city.js">
+  </script>
+ </body>
 </html>

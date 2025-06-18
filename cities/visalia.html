@@ -1,95 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>New Homes in Visalia | Hicks Realty</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-</head>
-<body>
-
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   New Homes in Visalia | Hicks Realty
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="../css/style.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+ </head>
+ <body>
   <!-- Navbar -->
   <header>
-    <nav class="navbar">
-      <div class="logo">Hicks Realty</div>
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../builders.html">Builders</a></li>
-        <li><a href="../cities/visalia.html" class="active">Cities</a></li>
-        <li><a href="../things-to-do.html">Things To Do</a></li>
-        <li><a href="../contact.html">Contact</a></li>
-      </ul>
-    </nav>
+   <nav class="navbar">
+    <div class="logo">
+     Hicks Realty
+    </div>
+    <ul class="nav-links">
+     <li>
+      <a href="../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="../builders.html">
+       Builders
+      </a>
+     </li>
+     <li>
+      <a class="active" href="../cities/index.html">
+       Cities
+      </a>
+     </li>
+     <li>
+      <a href="../things-to-do.html">
+       Things To Do
+      </a>
+     </li>
+     <li>
+      <a href="../contact.html">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
   </header>
-
   <!-- City Intro -->
   <section class="page-intro">
-    <h1>New Construction Homes in Visalia, CA</h1>
-    <p>Visalia is a thriving city with great schools, shopping, parks, and a growing selection of new construction communities.</p>
   </section>
-
   <!-- Map -->
   <section class="city-map-section">
-    <h2 style="text-align:center;">Community Map</h2>
-    <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;"></div>
+   <h2 style="text-align:center;">
+    Community Map
+   </h2>
+   <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;">
+   </div>
   </section>
-
   <!-- Community List -->
-  <section class="card-grid builders-grid">
-    <div class="builder-card">
-      <h2>D.R. Horton</h2>
-      <ul>
-        <li>River View</li>
-        <li>Arbor Gate</li>
-      </ul>
-    </div>
-
-    <div class="builder-card">
-      <h2>San Joaquin Valley Homes</h2>
-      <ul>
-        <li>Greystone</li>
-        <li>Sequoia Trails</li>
-      </ul>
-    </div>
-
-    <div class="builder-card">
-      <h2>Woodside Homes</h2>
-      <ul>
-        <li>Hidden Oaks</li>
-      </ul>
-    </div>
+  <section class="card-grid builders-grid" id="city-builder-list">
   </section>
-
   <!-- Stats/Info -->
   <section class="cta-section">
-    <h2>Why Choose Visalia?</h2>
-    <p>Visalia offers convenience, high-performing schools, a charming downtown, and a growing inventory of new homes for every stage of life.</p>
-    <p><strong>Recent Market Stats:</strong> Median new home price: $485,000 · Avg. time on market: 19 days</p>
+   <h2>
+    Why Choose Visalia?
+   </h2>
+   <p>
+    Visalia offers convenience, high-performing schools, a charming downtown, and a growing inventory of new homes for every stage of life.
+   </p>
+   <p>
+    <strong>
+     Recent Market Stats:
+    </strong>
+    Median new home price: $485,000 · Avg. time on market: 19 days
+   </p>
   </section>
-
   <footer>
-    <p>&copy; 2025 Hicks Realty</p>
+   <p>
+    © 2025 Hicks Realty
+   </p>
   </footer>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    const map = L.map('map').setView([36.3302, -119.2921], 12);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-
-    // Sample Visalia community markers
-    L.marker([36.325, -119.290]).addTo(map)
-      .bindPopup('<strong>River View</strong><br>D.R. Horton');
-
-    L.marker([36.335, -119.280]).addTo(map)
-      .bindPopup('<strong>Greystone</strong><br>San Joaquin Valley Homes');
-
-    L.marker([36.315, -119.310]).addTo(map)
-      .bindPopup('<strong>Hidden Oaks</strong><br>Woodside Homes');
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
   </script>
-
-</body>
+  <script src="../js/city.js">
+  </script>
+ </body>
 </html>
