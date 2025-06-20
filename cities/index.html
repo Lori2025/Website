@@ -1,153 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
   <meta charset="utf-8"/>
-  <title>
-   Explore Cities | Hicks Realty
-  </title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <link href="../css/style.css" rel="stylesheet"/>
- </head>
- <body>
+  <title>Explore Cities | Hicks Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
   <!-- Navbar -->
-  <header>
-   <nav class="navbar">
-    <div class="logo">
-     Hicks Realty
-    </div>
-    <ul class="nav-links">
-     <li>
-      <a href="../index.html">
-       Home
-      </a>
-     </li>
-     <li>
-      <a href="../builders.html">
-       Builders
-      </a>
-     </li>
-     <li>
-      <a class="active" href="../cities/index.html">
-       Cities
-      </a>
-     </li>
-     <li>
-      <a href="../things-to-do.html">
-       Things To Do
-      </a>
-     </li>
-     <li>
-      <a href="../contact.html">
-       Contact
-      </a>
-     </li>
-    </ul>
-   </nav>
-  </header>
+  <div id="header-placeholder"></div>
+  <script type="module" src="../js/injectPartials.js"></script>
+
   <!-- Page Intro -->
   <section class="page-intro">
-   <h1>
-    Explore New Homes by City
-   </h1>
-   <p>
-    Select a city to see communities, builders, maps, and more. Each page is tailored with local info and market stats.
-   </p>
+    <h1>Explore New Homes by City</h1>
+    <p>Select a city to see communities, builders, maps, and more. Each page is tailored with local info and market stats.</p>
   </section>
-  <!-- City Cards -->
-  <section class="card-grid builders-grid">
-   <a class="builder-card" href="../cities/corcoran.html">
-    <h2>
-     Corcoran
-    </h2>
-    <p>
-     1 active communityy
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/delano.html">
-    <h2>
-     Delano
-    </h2>
-    <p>
-     0 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/dinuba.html">
-    <h2>
-     Dinuba
-    </h2>
-    <p>
-     0 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/exeter.html">
-    <h2>
-     Exeter
-    </h2>
-    <p>
-     1 active communityy
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/goshen.html">
-    <h2>
-     Goshen
-    </h2>
-    <p>
-     0 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/hanford.html">
-    <h2>
-     Hanford
-    </h2>
-    <p>
-     8 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/lemoore.html">
-    <h2>
-     Lemoore
-    </h2>
-    <p>
-     1 active communityy
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/porterville.html">
-    <h2>
-     Porterville
-    </h2>
-    <p>
-     5 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/tulare.html">
-    <h2>
-     Tulare
-    </h2>
-    <p>
-     8 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/visalia.html">
-    <h2>
-     Visalia
-    </h2>
-    <p>
-     16 active communityies
-    </p>
-   </a>
-   <a class="builder-card" href="../cities/woodlake.html">
-    <h2>
-     Woodlake
-    </h2>
-    <p>
-     1 active communityy
-    </p>
-   </a>
+
+  <!-- City Cards Grid -->
+  <section id="city-directory" class="card-grid city-grid">
+    <!-- Cards inserted dynamically via citiesIndex.js -->
   </section>
-  <footer>
-   <p>
-    © 2025 Hicks Realty
-   </p>
-  </footer>
- </body>
+
+  <!-- Footer -->
+  <footer></footer>
+
+  <!-- Dynamic City Loader -->
+  <script type="module" src="../js/pages/citiesIndex.js"></script>
+
+</body>
 </html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome to Visalia | Hicks Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div id="header-placeholder"></div>
+  <script type="module" src="../js/injectPartials.js"></script>
+
+  <!-- Hero Banner -->
+  <section class="hero" style="background-image: url('../images/meow.jpg'); padding: 4rem 2rem; color: white; text-align: center;">
+    <h1 style="font-size: 3rem;">Visalia, California</h1>
+    <p style="font-size: 1.25rem;">Gateway to Sequoias, thriving with suburban charm</p>
+  </section>
+
+  <!-- Quick Snapshot -->
+  <section class="snapshot" style="text-align: center; padding: 2rem;">
+    <h2>🏡 Visalia At A Glance</h2>
+    <p>Median New Home Price: <strong>$512,000</strong> · Avg Commute: <strong>35 min to Fresno</strong></p>
+    <p>Schools: ★★★★★ · Vibe: Lively, Scenic, and Growing Fast</p>
+  </section>
+
+  <!-- Featured Builder -->
+  <section class="featured-builder" style="background: #f8f8f8; padding: 2rem;">
+    <h2 style="text-align: center;">🔨 Featured Builder: Woodside Homes</h2>
+    <div style="display: flex; gap: 2rem; align-items: center; justify-content: center; margin-top: 1rem;">
+      <img src="../images/meow.jpg" alt="Woodside Homes" style="width: 120px; height: auto;">
+      <p style="max-width: 500px;">Woodside Homes is delivering high-performance new builds in Visalia. From smart energy systems to customizable floorplans, communities like <em>Sequoia Trails</em> blend tech-savvy homes with nature-focused living.</p>
+    </div>
+  </section>
+
+  <!-- Community Showcase -->
+  <section class="community-grid" style="padding: 2rem;">
+    <h2 style="text-align: center;">🏘 Explore Communities</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem;">
+      <div class="community-card" style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
+        <h3>Sequoia Trails</h3>
+        <p>3–5 Beds · 2.5 Baths · 1,900–2,400 Sq Ft</p>
+        <p>Status: Selling Now</p>
+        <a href="#" style="color: #0077cc;">View Details →</a>
+      </div>
+      <div class="community-card" style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
+        <h3>River Oak Estates</h3>
+        <p>4 Beds · 3 Baths · 2,350 Sq Ft</p>
+        <p>Status: Model Home Open</p>
+        <a href="#" style="color: #0077cc;">View Details →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map" style="padding: 2rem; background: #222; color: white; text-align: center;">
+    <h2>📍 Where Is Visalia?</h2>
+    <p>Check out new construction hotspots on the map below.</p>
+    <div id="map" style="height: 300px; margin-top: 1rem; border-radius: 8px;"></div>
+  </section>
+
+  <!-- Local Flavor -->
+  <section class="local-flavor" style="padding: 2rem;">
+    <h2>🌳 Why Locals Love It</h2>
+    <ul style="max-width: 600px; margin: auto;">
+      <li>✔️ Charming downtown with art walks & breweries</li>
+      <li>✔️ Gateway to Sequoia National Park</li>
+      <li>✔️ Parks, trails, and family events year-round</li>
+    </ul>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" style="text-align: center; padding: 3rem 2rem; background: #0077cc; color: white;">
+    <h2>Thinking About Living in Visalia?</h2>
+    <a href="/contact.html" style="color: white; font-weight: bold;">📞 Get in Touch with Hicks Realty →</a>
+  </section>
+
+  <!-- Footer -->
+  <footer style="text-align: center; padding: 1rem; background: #111; color: #aaa;">
+    <p>© 2025 Hicks Realty</p>
+  </footer>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Map Init -->
+  <script type="module" src="/js/map.js"></script>
+</body>
+</html>

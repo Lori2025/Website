@@ -1,67 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   New Home Builders | Hicks Realty
-  </title>
-  <link href="css/style.css" rel="stylesheet"/>
- </head>
- <body>
-  <!-- Navbar -->
-  <header>
-   <nav class="navbar">
-    <div class="logo">
-     Hicks Realty
-    </div>
-    <ul class="nav-links">
-     <li>
-      <a href="index.html">
-       Home
-      </a>
-     </li>
-     <li>
-      <a class="active" href="builders.html">
-       Builders
-      </a>
-     </li>
-     <li>
-      <a href="cities/index.html">
-       Cities
-      </a>
-     </li>
-     <li>
-      <a href="things-to-do.html">
-       Things To Do
-      </a>
-     </li>
-     <li>
-      <a href="contact.html">
-       Contact
-      </a>
-     </li>
-    </ul>
-   </nav>
-  </header>
-  <!-- Page Header -->
-  <section class="page-intro">
-   <h1>
-    New Home Builders in Tulare County
-   </h1>
-   <p>
-    Browse the local builders developing new construction communities throughout the Central Valley.
-   </p>
-  </section>
-  <!-- Builder Cards -->
-  <section class="card-grid builders-grid">
-  </section>
-  <footer>
-   <p>
-    © 2025 Hicks Realty
-   </p>
-  </footer>
-  <script src="js/builders.js">
-  </script>
- </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Home Builders | Hicks Realty</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="header-placeholder"></div>
+    <script type="module" src="js/injectPartials.js"></script>
+
+    <!-- Page Header -->
+    <section class="page-intro">
+      <h1>New Home Builders in Tulare County</h1>
+      <p>
+        Browse the local builders developing new construction communities throughout the Central Valley.
+      </p>
+    </section>
+
+    <!-- Builder Cards -->
+    <section id="builders-container" class="builders-grid"></section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Hicks Realty</p>
+    </footer>
+
+    <!-- Builder Script -->
+    <script type="module" src="js/pages/builders.js"></script>
+  </body>
 </html>

@@ -1,0 +1,141 @@
+{
+  "corcoran": [
+    {
+      "name": "Fox Run",
+      "builder": "D.R. Horton",
+      "priceRange": "$290,000 \u2013 $340,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1450,
+      "status": "Active",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "corcoran_fox_run"
+    },
+    {
+      "name": "Sierra Meadows",
+      "builder": "Lennar",
+      "priceRange": "$310,000 \u2013 $360,000",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 1700,
+      "status": "Coming Soon",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "corcoran_sierra_meadows"
+    }
+  ],
+  "delano": [
+    {
+      "name": "Sunset Ridge",
+      "builder": "KB Home",
+      "priceRange": "$320,000 \u2013 $375,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1600,
+      "status": "Active",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "delano_sunset_ridge"
+    }
+  ],
+  "dinuba": [
+    {
+      "name": "Harvest Estates",
+      "builder": "D.R. Horton",
+      "priceRange": "$305,000 \u2013 $345,000",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 1650,
+      "status": "Active",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "dinuba_harvest_estates"
+    }
+  ],
+  "exeter": [],
+  "goshen": [],
+  "hanford": [
+    {
+      "name": "Maple Grove",
+      "builder": "Lennar",
+      "priceRange": "$330,000 \u2013 $390,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1500,
+      "status": "Active",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "hanford_maple_grove"
+    }
+  ],
+  "lemoore": [
+    {
+      "name": "Eagle Crest",
+      "builder": "KB Home",
+      "priceRange": "$310,000 \u2013 $370,000",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 1800,
+      "status": "Coming Soon",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "lemoore_eagle_crest"
+    }
+  ],
+  "porterville": [
+    {
+      "name": "Riverstone",
+      "builder": "D.R. Horton",
+      "priceRange": "$295,000 \u2013 $335,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1400,
+      "status": "Active",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "porterville_riverstone"
+    }
+  ],
+  "tulare": [
+    {
+      "name": "Mission Oaks",
+      "builder": "Lennar",
+      "priceRange": "$325,000 \u2013 $375,000",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 1700,
+      "status": "Sold Out",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "tulare_mission_oaks"
+    }
+  ],
+  "visalia": [
+    {
+      "name": "Willow Springs",
+      "builder": "KB Home",
+      "priceRange": "$345,000 \u2013 $395,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1600,
+      "status": "Active",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "visalia_willow_springs"
+    },
+    {
+      "name": "Cedar Glen",
+      "builder": "Lennar",
+      "priceRange": "$355,000 \u2013 $405,000",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 1800,
+      "status": "Coming Soon",
+      "image": "images/meow.jpg",
+      "link": "#",
+      "id": "visalia_cedar_glen"
+    }
+  ],
+  "woodlake": []
+}

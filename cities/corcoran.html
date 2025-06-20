@@ -1,87 +1,96 @@
+
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <title>
-   New Homes in Corcoran | Hicks Realty
-  </title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <link href="../css/style.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
- </head>
- <body>
-  <!-- Navbar -->
-  <header>
-   <nav class="navbar">
-    <div class="logo">
-     Hicks Realty
+<head>
+  <meta charset="UTF-8">
+  <title>The Villas at Sierra Ranch | Summit Homebuilders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background-color: #111; color: #eee; }
+    .community-header { margin-bottom: 1rem; }
+    .community-header h1 { margin: 0; font-size: 2rem; }
+    .community-meta { font-size: 0.95rem; margin-bottom: 1rem; }
+    .floorplans { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .floorplan { border: 1px solid #444; padding: 1rem; background-color: #1a1a1a; border-radius: 6px; }
+    .floorplan h3 { margin-top: 0; }
+    .floorplan a { color: #58a6ff; text-decoration: none; }
+    .badge { background: #333; color: #ddd; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 4px; margin-left: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="community-header">
+    <h1>The Villas at Sierra Ranch</h1>
+    <div class="community-meta">
+      <p><strong>Builder:</strong> Summit Homebuilders, Inc</p>
+      <p><strong>City:</strong> Tulare</p>
+      <p><strong>Type:</strong> Gated Community</p>
+      <p><a href="https://www.summithomebuildersinc.com/villassierraranch" target="_blank">Visit Community Website</a></p>
     </div>
-    <ul class="nav-links">
-     <li>
-      <a href="../index.html">
-       Home
-      </a>
-     </li>
-     <li>
-      <a href="../builders.html">
-       Builders
-      </a>
-     </li>
-     <li>
-      <a class="active" href="../cities/index.html">
-       Cities
-      </a>
-     </li>
-     <li>
-      <a href="../things-to-do.html">
-       Things To Do
-      </a>
-     </li>
-     <li>
-      <a href="../contact.html">
-       Contact
-      </a>
-     </li>
-    </ul>
-   </nav>
-  </header>
-  <!-- City Intro -->
-  <section class="page-intro">
-  </section>
-  <!-- Map -->
-  <section class="city-map-section">
-   <h2 style="text-align:center;">
-    Community Map
-   </h2>
-   <div id="map" style="height: 400px; max-width: 90%; margin: 1rem auto;">
-   </div>
-  </section>
-  <!-- Community List -->
-  <section class="card-grid builders-grid" id="city-builder-list">
-  </section>
-  <!-- Stats/Info -->
-  <section class="cta-section">
-   <h2>
-    Why Consider Corcoran?
-   </h2>
-   <p>
-    With some of the most affordable new homes in Kings County, Corcoran is great for first-time buyers, small families, or anyone seeking a simpler lifestyle.
-   </p>
-   <p>
-    <strong>
-     Recent Market Stats:
-    </strong>
-    Median new home price: $345,000 · Avg. time on market: 35 days
-   </p>
-  </section>
-  <footer>
-   <p>
-    © 2025 Hicks Realty
-   </p>
-  </footer>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-  </script>
-  <script src="../js/city.js">
-  </script>
- </body>
+  </div>
+
+  <h2>Available Floorplans</h2>
+  <div class="floorplans">
+    <div class="floorplan">
+      <h3><a href="https://www.summithomebuildersinc.com/villassierraranch/savannah" target="_blank">Savannah</a></h3>
+      <p><strong>Stories:</strong> 2</p>
+      <p><strong>Sq Ft:</strong> 1269 - 1566</p>
+      <p><strong>Bedrooms:</strong> 2–3</p>
+      <p><strong>Bathrooms:</strong> 2–3</p>
+      <p><strong>Garage:</strong> 2</p>
+      <p><strong>Customizable:</strong> Yes</p>
+      <p><strong>Multi-Gen:</strong> Yes</p>
+    </div>
+    <div class="floorplan">
+      <h3><a href="https://www.summithomebuildersinc.com/villassierraranch/skyler" target="_blank">Skyler</a></h3>
+      <p><strong>Stories:</strong> 2</p>
+      <p><strong>Sq Ft:</strong> 1826–2091</p>
+      <p><strong>Bedrooms:</strong> 3–4</p>
+      <p><strong>Bathrooms:</strong> 2.5–3.5</p>
+      <p><strong>Garage:</strong> 2</p>
+      <p><strong>Customizable:</strong> Yes</p>
+      <p><strong>Multi-Gen:</strong> Yes</p>
+    </div>
+    <div class="floorplan">
+      <h3><a href="https://www.summithomebuildersinc.com/villassierraranch/finlee" target="_blank">Finlee</a></h3>
+      <p><strong>Stories:</strong> 2</p>
+      <p><strong>Sq Ft:</strong> 1830</p>
+      <p><strong>Bedrooms:</strong> 3–4</p>
+      <p><strong>Bathrooms:</strong> 3</p>
+      <p><strong>Garage:</strong> 2</p>
+      <p><strong>Customizable:</strong> Yes</p>
+      <p><strong>Multi-Gen:</strong> Yes</p>
+    </div>
+    <div class="floorplan">
+      <h3><a href="https://www.summithomebuildersinc.com/villassierraranch/harper" target="_blank">Harper</a></h3>
+      <p><strong>Stories:</strong> 1</p>
+      <p><strong>Sq Ft:</strong> 2050</p>
+      <p><strong>Bedrooms:</strong> 2–3</p>
+      <p><strong>Bathrooms:</strong> 2</p>
+      <p><strong>Garage:</strong> 2</p>
+      <p><strong>Customizable:</strong> Yes</p>
+      <p><strong>Multi-Gen:</strong> Yes</p>
+    </div>
+    <div class="floorplan">
+      <h3><a href="https://www.summithomebuildersinc.com/villassierraranch/adelaide" target="_blank">Adelaide</a></h3>
+      <p><strong>Stories:</strong> 1</p>
+      <p><strong>Sq Ft:</strong> 2238</p>
+      <p><strong>Bedrooms:</strong> 3–4</p>
+      <p><strong>Bathrooms:</strong> 2.5–3</p>
+      <p><strong>Garage:</strong> 2</p>
+      <p><strong>Customizable:</strong> Yes</p>
+      <p><strong>Multi-Gen:</strong> Yes</p>
+    </div>
+    <div class="floorplan">
+      <h3><a href="https://www.summithomebuildersinc.com/villassierraranch/shelby" target="_blank">Shelby</a></h3>
+      <p><strong>Stories:</strong> 2</p>
+      <p><strong>Sq Ft:</strong> 2357</p>
+      <p><strong>Bedrooms:</strong> 3–4</p>
+      <p><strong>Bathrooms:</strong> 3.5</p>
+      <p><strong>Garage:</strong> 2</p>
+      <p><strong>Customizable:</strong> Yes</p>
+      <p><strong>Multi-Gen:</strong> Yes</p>
+    </div>
+  </div>
+</body>
 </html>

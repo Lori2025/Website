@@ -6,7 +6,7 @@
     "beds": 3,
     "baths": 2,
     "builder": "ABC Homes",
-    "image": "images/house1.jpg",
+    "image": "images/meow.jpg",
     "page": "#"
   },
   {
@@ -16,7 +16,7 @@
     "beds": 4,
     "baths": 3,
     "builder": "XYZ Builders",
-    "image": "images/house2.jpg",
+    "image": "images/meow.jpg",
     "page": "#"
   }
 ]

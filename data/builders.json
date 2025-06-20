@@ -1,149 +1,633 @@
 [
   {
     "builder": "Bonadelle Homes Inc.",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Bonadelle Homes Inc. builds communities in the Central Valley.",
     "cities": {
       "Tulare": [
-        "Mission Oaks"
+        {
+          "community": "Mission Oaks",
+          "priceRange": "$325,000 \u2013 $375,000",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 1700,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.217492,
+          "lng": -119.351057
+        }
       ]
     }
   },
   {
     "builder": "Century Communities",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Century Communities builds communities in the Central Valley.",
     "cities": {
       "Hanford": [
-        "Live Oak"
+        {
+          "community": "Live Oak",
+          "priceRange": "$319,235 \u2013 $379,379",
+          "beds": 5,
+          "baths": 2.5,
+          "sqft": 1800,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.34466,
+          "lng": -119.641112
+        }
       ],
       "Tulare": [
-        "Liberty Hill"
+        {
+          "community": "Liberty Hill",
+          "priceRange": "$294,944 \u2013 $352,400",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 2200,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.204927,
+          "lng": -119.341111
+        }
       ],
       "Visalia": [
-        "Larkspur"
+        {
+          "community": "Larkspur",
+          "priceRange": "$334,617 \u2013 $367,473",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 2200,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.333136,
+          "lng": -119.277811
+        }
       ]
     }
   },
   {
     "builder": "D.R. Horton",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "D.R. Horton builds communities in the Central Valley.",
     "cities": {
       "Corcoran": [
-        "Fox Run"
+        {
+          "community": "Fox Run",
+          "priceRange": "$290,000 \u2013 $340,000",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1450,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.199487,
+          "lng": -119.313968
+        }
       ],
       "Hanford": [
-        "Billingsley Ranch"
+        {
+          "community": "Billingsley Ranch",
+          "priceRange": "$351,949 \u2013 $424,609",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 2000,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.309749,
+          "lng": -119.662762
+        }
       ],
       "Tulare": [
-        "Santa Fe Trail",
-        "Wild Oak"
+        {
+          "community": "Santa Fe Trail",
+          "priceRange": "$377,833 \u2013 $412,755",
+          "beds": 5,
+          "baths": 2,
+          "sqft": 2200,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.202699,
+          "lng": -119.329007
+        },
+        {
+          "community": "Wild Oak",
+          "priceRange": "$337,339 \u2013 $371,447",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 1400,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.215824,
+          "lng": -119.332363
+        }
       ],
       "Visalia": [
-        "Victory Oaks",
-        "Shepards Ranch"
+        {
+          "community": "Victory Oaks",
+          "priceRange": "$320,329 \u2013 $370,694",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2000,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.339285,
+          "lng": -119.273457
+        },
+        {
+          "community": "Shepards Ranch",
+          "priceRange": "$330,834 \u2013 $401,034",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 1600,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.314906,
+          "lng": -119.296561
+        }
       ],
       "Woodlake": [
-        "Greenwood"
+        {
+          "community": "Greenwood",
+          "priceRange": "$378,351 \u2013 $410,600",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2000,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.209409,
+          "lng": -119.28363
+        }
       ]
     }
   },
   {
     "builder": "Lennar",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Lennar builds communities in the Central Valley.",
     "cities": {
       "Hanford": [
-        "Ironside \u2013 Solana Series",
-        "Ironside \u2013 Treasures"
+        {
+          "community": "Ironside \u2013 Solana Series",
+          "priceRange": "$352,593 \u2013 $405,458",
+          "beds": 3,
+          "baths": 3,
+          "sqft": 1800,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.329228,
+          "lng": -119.663579
+        },
+        {
+          "community": "Ironside \u2013 Treasures",
+          "priceRange": "$373,411 \u2013 $433,268",
+          "beds": 5,
+          "baths": 3,
+          "sqft": 2000,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.31613,
+          "lng": -119.655359
+        }
       ],
       "Lemoore": [
-        "Avertine \u2013 Choral Series"
+        {
+          "community": "Avertine \u2013 Choral Series",
+          "priceRange": "$398,645 \u2013 $455,641",
+          "beds": 5,
+          "baths": 3,
+          "sqft": 1800,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.302619,
+          "lng": -119.772017
+        }
       ]
     }
   },
   {
     "builder": "San Joaquin Valley Homes",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "San Joaquin Valley Homes builds communities in the Central Valley.",
     "cities": {
       "Hanford": [
-        "Bonterra",
-        "Hidden Oaks II"
+        {
+          "community": "Bonterra",
+          "priceRange": "$395,106 \u2013 $474,367",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 1400,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.339616,
+          "lng": -119.633332
+        },
+        {
+          "community": "Hidden Oaks II",
+          "priceRange": "$359,668 \u2013 $434,556",
+          "beds": 5,
+          "baths": 2.5,
+          "sqft": 1800,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.334104,
+          "lng": -119.625738
+        }
       ],
       "Porterville": [
-        "Brookside",
-        "Laurelwood"
+        {
+          "community": "Brookside",
+          "priceRange": "$334,540 \u2013 $369,112",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2200,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.183621,
+          "lng": -119.304075
+        },
+        {
+          "community": "Laurelwood",
+          "priceRange": "$364,052 \u2013 $429,080",
+          "beds": 3,
+          "baths": 3,
+          "sqft": 1400,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.185927,
+          "lng": -119.31127
+        }
       ],
       "Tulare": [
-        "Sorrento"
+        {
+          "community": "Sorrento",
+          "priceRange": "$330,917 \u2013 $371,005",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 2200,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.206573,
+          "lng": -119.362179
+        }
       ],
       "Visalia": [
-        "Andalusia",
-        "Maple Wood",
-        "Sycamore Ranch",
-        "Granite Hill",
-        "Stonebrook"
+        {
+          "community": "Andalusia",
+          "priceRange": "$315,295 \u2013 $394,054",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 1600,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.335877,
+          "lng": -119.284445
+        },
+        {
+          "community": "Maple Wood",
+          "priceRange": "$330,372 \u2013 $393,979",
+          "beds": 5,
+          "baths": 3,
+          "sqft": 2000,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.33737,
+          "lng": -119.282811
+        },
+        {
+          "community": "Sycamore Ranch",
+          "priceRange": "$301,890 \u2013 $338,661",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 1400,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.330517,
+          "lng": -119.293702
+        },
+        {
+          "community": "Granite Hill",
+          "priceRange": "$297,311 \u2013 $365,915",
+          "beds": 5,
+          "baths": 2,
+          "sqft": 2200,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.341827,
+          "lng": -119.282013
+        },
+        {
+          "community": "Stonebrook",
+          "priceRange": "$361,977 \u2013 $438,636",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2000,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.324284,
+          "lng": -119.28346
+        }
       ]
     }
   },
   {
     "builder": "Smee Homes Inc.",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Smee Homes Inc. builds communities in the Central Valley.",
     "cities": {
       "Exeter": [
-        "Yokohl Landing"
+        {
+          "community": "Yokohl Landing",
+          "priceRange": "$356,060 \u2013 $421,732",
+          "beds": 5,
+          "baths": 3,
+          "sqft": 2200,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.195356,
+          "lng": -119.293282
+        }
       ],
       "Porterville": [
-        "The Villas at Sierra Meadows",
-        "Summit Estates"
+        {
+          "community": "The Villas at Sierra Meadows",
+          "priceRange": "$396,735 \u2013 $462,537",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 1400,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.186406,
+          "lng": -119.316477
+        },
+        {
+          "community": "Summit Estates",
+          "priceRange": "$307,907 \u2013 $342,150",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1400,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.216304,
+          "lng": -119.317031
+        }
       ],
       "Visalia": [
-        "Cross Creek Bend"
+        {
+          "community": "Cross Creek Bend",
+          "priceRange": "$399,645 \u2013 $433,453",
+          "beds": 5,
+          "baths": 2,
+          "sqft": 1400,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.342021,
+          "lng": -119.286791
+        }
       ]
     }
   },
   {
     "builder": "Summit Homebuilders Inc.",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Summit Homebuilders Inc. builds communities in the Central Valley.",
     "cities": {
       "Tulare": [
-        "The Villas at Sierra Ranch"
+        {
+          "community": "The Villas at Sierra Ranch",
+          "priceRange": "$370,066 \u2013 $448,460",
+          "beds": 5,
+          "baths": 2.5,
+          "sqft": 2200,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.214265,
+          "lng": -119.347045
+        }
       ],
       "Visalia": [
-        "Southern Highlands"
+        {
+          "community": "Southern Highlands",
+          "priceRange": "$321,646 \u2013 $399,124",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2000,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.311488,
+          "lng": -119.305516
+        }
       ]
     }
   },
   {
     "builder": "T.C. James Homes",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "T.C. James Homes builds communities in the Central Valley.",
     "cities": {
       "Visalia": [
-        "Tierra Linda",
-        "Cross Creek Bend",
-        "Alta Vista at O\u2019Hara Ranch"
+        {
+          "community": "Tierra Linda",
+          "priceRange": "$339,897 \u2013 $416,153",
+          "beds": 5,
+          "baths": 3,
+          "sqft": 1800,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.322799,
+          "lng": -119.276592
+        },
+        {
+          "community": "Cross Creek Bend",
+          "priceRange": "$349,769 \u2013 $425,288",
+          "beds": 3,
+          "baths": 3,
+          "sqft": 1800,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.311832,
+          "lng": -119.274825
+        },
+        {
+          "community": "Alta Vista at O\u2019Hara Ranch",
+          "priceRange": "$392,301 \u2013 $437,094",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2000,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.314837,
+          "lng": -119.283042
+        }
       ]
     }
   },
   {
     "builder": "Willow Springs",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Willow Springs builds communities in the Central Valley.",
     "cities": {
       "Visalia": [
-        "Willow Springs"
+        {
+          "community": "Willow Springs",
+          "priceRange": "$345,000 \u2013 $395,000",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1600,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.343404,
+          "lng": -119.294937
+        }
       ]
     }
   },
   {
     "builder": "Woodside Homes",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Woodside Homes builds communities in the Central Valley.",
     "cities": {
       "Hanford": [
-        "Ella Gardens \u2013 The West Garden",
-        "Ella Gardens \u2013 The East Garden"
+        {
+          "community": "Ella Gardens \u2013 The West Garden",
+          "priceRange": "$358,667 \u2013 $415,694",
+          "beds": 5,
+          "baths": 3,
+          "sqft": 1400,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.315404,
+          "lng": -119.645166
+        },
+        {
+          "community": "Ella Gardens \u2013 The East Garden",
+          "priceRange": "$350,373 \u2013 $386,547",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1400,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.345545,
+          "lng": -119.657416
+        }
       ],
       "Tulare": [
-        "The Orchards at Copper Heights",
-        "The Acres at Copper Heights"
+        {
+          "community": "The Orchards at Copper Heights",
+          "priceRange": "$334,431 \u2013 $409,802",
+          "beds": 3,
+          "baths": 3,
+          "sqft": 1600,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.218896,
+          "lng": -119.348211
+        },
+        {
+          "community": "The Acres at Copper Heights",
+          "priceRange": "$329,839 \u2013 $376,228",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2000,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.199936,
+          "lng": -119.341479
+        }
       ],
       "Visalia": [
-        "Huckleberry Park",
-        "Wildflower"
+        {
+          "community": "Huckleberry Park",
+          "priceRange": "$381,865 \u2013 $456,581",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1400,
+          "status": "Active",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.331204,
+          "lng": -119.285697
+        },
+        {
+          "community": "Wildflower",
+          "priceRange": "$395,675 \u2013 $433,928",
+          "beds": 5,
+          "baths": 2,
+          "sqft": 2200,
+          "status": "Coming Soon",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.344244,
+          "lng": -119.28732
+        }
       ]
     }
   },
   {
     "builder": "Your Valley Builder",
+    "logo": "images/meow.jpg",
+    "website": "#",
+    "description": "Your Valley Builder builds communities in the Central Valley.",
     "cities": {
       "Porterville": [
-        "Royal Oaks"
+        {
+          "community": "Royal Oaks",
+          "priceRange": "$333,242 \u2013 $395,552",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 1800,
+          "status": "Sold Out",
+          "image": "images/meow.jpg",
+          "link": "#",
+          "lat": 36.203287,
+          "lng": -119.309264
+        }
       ]
     }
   }

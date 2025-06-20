@@ -1,0 +1,39 @@
+
+export function createCityBuilderCard(builder, communities) {
+  const {
+    builder: name = "Unnamed Builder",
+    logo = "images/meow.jpg",
+    website = "#",
+    description = ""
+  } = builder;
+
+  const communityCards = communities.map(c => `
+    <div class="community-card">
+      <img src="${c.image || 'images/meow.jpg'}" alt="${c.community}" />
+      <div class="community-details">
+        <h4>${c.community}</h4>
+        <p><strong>Price:</strong> ${c.priceRange}</p>
+        <p><strong>Beds:</strong> ${c.beds} | <strong>Baths:</strong> ${c.baths}</p>
+        <p><strong>Sq Ft:</strong> ${c.sqft}</p>
+        <p><strong>Status:</strong> ${c.status}</p>
+        <a class="cta-btn" href="${c.link || '#'}" target="_blank">View Community</a>
+      </div>
+    </div>
+  `).join("");
+
+  return `
+    <div class="builder-card">
+      <div class="builder-header">
+        <img src="${logo}" alt="${name} logo" class="builder-logo" />
+        <div class="builder-info">
+          <h3>${name}</h3>
+          <p>${description}</p>
+          <a href="${website}" target="_blank" class="builder-link">Visit Builder Website</a>
+        </div>
+      </div>
+      <div class="community-card-grid">
+        ${communityCards}
+      </div>
+    </div>
+  `;
+}
