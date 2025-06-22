@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadCityCards(container) {
   try {
-    const res = await fetch("/data/cities.json"); // ✅ site-root relative
+    const res = await fetch("/Website/data/cities.json"); // ✅ site-root relative
     const cities = await res.json();
 
     if (!Array.isArray(cities)) {
